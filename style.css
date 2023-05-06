@@ -11,6 +11,5 @@ body {
     padding: 0;
 }
 .imagem {
-text-align: center;
-margin: auto;
+ style="display: flex; flex-direction: column;"
 }
