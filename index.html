@@ -8,6 +8,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <script>
+    // Insira o código JavaScript aqui
+    var title = document.getElementById("neon-title");
+    var colors = ["red", "blue", "purple"];
+    var currentIndex = 0;
+
+    function changeColor() {
+      title.style.color = colors[currentIndex];
+      currentIndex = (currentIndex + 1) % colors.length;
+    }
+
+    setInterval(changeColor, 3000);
+
+    setTimeout(function() {
+      clearInterval(changeColorInterval);
+    }, 11000);
+  </script>
   <h1 id="neon-title">The best site</h1>
 
   <div>
