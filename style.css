@@ -10,3 +10,19 @@ body {
     margin: 0;
     padding: 0;
 }
+.neon {
+    font-size: 48px;
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #00eaff, 0 0 70px #00eaff, 0 0 80px #00eaff, 0 0 100px #00eaff, 0 0 150px #00eaff;
+    animation: neon-glow 1.5s ease-in-out infinite alternate;
+  }
+  
+  @keyframes neon-glow {
+    0% {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #00eaff, 0 0 70px #00eaff, 0 0 80px #00eaff, 0 0 100px #00eaff, 0 0 150px #00eaff;
+    }
+    100% {
+      text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #00eaff, 0 0 70px #00eaff, 0 0 80px #00eaff, 0 0 100px #00eaff, 0 0 150px #00eaff, 0 0 300px #00eaff;
+    }
+  }
+  
