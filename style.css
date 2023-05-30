@@ -13,16 +13,16 @@ body {
 .neon {
     font-size: 48px;
     color: #fff;
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #00eaff, 0 0 70px #00eaff, 0 0 80px #00eaff, 0 0 100px #00eaff, 0 0 150px #00eaff;
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #00ff40, 0 0 30px #ff0000, 0 0 40px #09ff00, 0 0 70px #00eaff, 0 0 80px #00eaff, 0 0 100px #00eaff, 0 0 150px #00eaff;
     animation: neon-glow 1.5s ease-in-out infinite alternate;
   }
   
   @keyframes neon-glow {
     0% {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #00eaff, 0 0 70px #00eaff, 0 0 80px #00eaff, 0 0 100px #00eaff, 0 0 150px #00eaff;
+      text-shadow: 0 0 10px #ff0000, 0 0 20px #00ff6a, 0 0 30px #ff0000, 0 0 40px #00eaff, 0 0 70px #00eaff, 0 0 80px #00eaff, 0 0 100px #00eaff, 0 0 150px #00eaff;
     }
     100% {
-      text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #00eaff, 0 0 70px #00eaff, 0 0 80px #00eaff, 0 0 100px #00eaff, 0 0 150px #00eaff, 0 0 300px #00eaff;
+      text-shadow: 0 0 20px #c53434, 0 0 30px #004726, 0 0 40px #b11111, 0 0 70px #00eaff, 0 0 80px #00eaff, 0 0 100px #00eaff, 0 0 150px #00eaff, 0 0 300px #00eaff;
     }
   }
   
