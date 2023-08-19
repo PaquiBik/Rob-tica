@@ -8,30 +8,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <script>
-    // Insira o código JavaScript aqui
-    var title = document.getElementById("neon-title");
-    var colors = ["red", "blue", "purple"];
-    var currentIndex = 0;
 
-    function changeColor() {
-      title.style.color = colors[currentIndex];
-      currentIndex = (currentIndex + 1) % colors.length;
-    }
-
-    setInterval(changeColor, 3000);
-
-    setTimeout(function() {
-      clearInterval(changeColorInterval);
-    }, 11000);
-  </script>
-  <h1 id="neon-title">The best site</h1>
-
-  <div>
+<!--titulo principal do site-->
 <h1>Projeto Sinaleiro</h1>
-</div>
+<!--área de navegação-->
+<nav>
+  <button a="https://projeto2p.vercel.app/"> sair </button> 
+</nav>
+<!--fotos do projeto-->
+<section class="fotos">
+
+</section>
+
+<!--videos do projeto-->
+<section class="videos">
 
 
+</section>
   <div style="display: flex; flex-direction: column;"></div>
   <video src="video robotica.mp4" controls></video>
   <video src="Video 2.mp4" controls></video>
@@ -50,7 +43,9 @@
 </div>
 
   </body>
- 
-
+ <!--rodapé-->
+<footer>
+  <p>Criado para fins de estudos</p>
+</footer>
 
 </html>
