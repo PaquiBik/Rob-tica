@@ -1,12 +1,55 @@
-
-
-body {
-  background-color: blanchedalmond;
-    font-size: 16px;
-    font-weight: 400;
+body{
+  background-color: aqua;
+  margin: 0;
+  padding: 0;
+  
 }
+nav h1{
+  display: flex;
+  justify-content: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav {
+background-color: azure;
+padding: 50px;
 
-* {
-    margin: 0;
-    padding: 0;
+}
+.botao-centralizar{
+display: flex;
+justify-content: center;
+ 
+}
+.fotos-projeto {
+background-color: bisque;
+padding: 150px;
+}
+.videos-projeto {
+background-color: beige;
+padding: 150px;
+}
+footer{
+  display: flex;
+background-color: blanchedalmond;
+padding: 50px;
+justify-content: space-between;
+}
+footer p{
+font-size: 16px;
+}
+.botao{
+  border: 2px solid #b82222;
+  background-color: rgb(235, 36, 218);
+  text-decoration: none;
+  margin: 6px;
+  padding: 6px;
+  border-radius: 7px;
+  color: black;
+  transition: border-radius 1s, background-color 1s;
+  
+
+}   
+.botao:hover{
+  border-radius: 15px;
+  background-color: #fc37ba;
+  border: 3px solid black ;
 }
