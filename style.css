@@ -1,5 +1,5 @@
-@import url(bonitinho.css)
-
+@import url(bonitinho.css);
+@import url(reset.css);
 body{
   background-color: aqua;
   margin: 0;
