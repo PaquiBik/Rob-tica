@@ -1,4 +1,4 @@
 function tocamSomClap () {
 document.querySelector('#som-tecla-clap').play();
 }
-document.querySelector('tecla-Clap').onclick = tocamSomClap;
+document.querySelector('.tecla-Clap').onclick = tocamSomClap;
