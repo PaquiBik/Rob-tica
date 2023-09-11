@@ -1,2 +1,4 @@
-document.querySelector('tecla-pom');
+function tocamSomPom () {
 document.querySelector('#som-tecla-pom').play();
+}
+document.querySelector('tecla-pom')
