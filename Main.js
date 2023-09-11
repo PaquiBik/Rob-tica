@@ -8,6 +8,6 @@ let Contador = 0;
 while (Contador < 9) {
 
 ListaDeTeclas[1].onclick = tocamSomClap;
-Contador = 0>9
+Contador = +1
 console.log(Contador);
 }
