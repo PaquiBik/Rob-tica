@@ -6,8 +6,8 @@ document.querySelector('#som-tecla-clap').play();
 const ListaDeTeclas = document.querySelectorAll('.tecla');
 let Contador = 0;
 while (Contador < 9) {
+    Contador = Contador + 1
+ListaDeTeclas[Contador].onclick = tocamSomClap;
 
-ListaDeTeclas[1].onclick = tocamSomClap;
-Contador = +1
 console.log(Contador);
 }
