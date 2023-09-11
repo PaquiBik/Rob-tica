@@ -1,6 +1,0 @@
-function tocamSomClap () {
-document.querySelector('#som-tecla-clap').play();
-}
-document.querySelector('.tecla-clap').onclick = tocamSomClap;
-
-const ListaDeTeclas = document.querySelectorAll('.tecla');
