@@ -16,7 +16,7 @@ while (Contador < ListaDeTeclas.length) {
         tocamSomClap('#som-tecla-clap');
     }
     const jacareVermelho = ListaDeTeclas[Contador].classList[1];
-console(jacareVermelho);
+console.log(jacareVermelho);
     Contador = Contador + 1;
 
     //console fala com nos
