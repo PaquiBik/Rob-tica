@@ -8,13 +8,15 @@ function tocamSomClap(idElementoDoAudioNaoFuncional) {
 const ListaDeTeclas = document.querySelectorAll('.tecla');
 let Contador = 0;
 //variavel "enquanto"
+
 while (Contador < ListaDeTeclas.length) {
     //contador mudando de variavel (ele + 1)
     //ListaDeTeclas[Contador].onclick = tocar('#som-tecla-clap');
     ListaDeTeclas[Contador].onclick = function () {
         tocamSomClap('#som-tecla-clap');
-
     }
+    const jacaré = ListaDeTeclas[Contador].classList[1]
+console(jacaré)
     Contador = Contador + 1;
 
     //console fala com nos
