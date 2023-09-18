@@ -11,7 +11,11 @@ let Contador = 0;
 while (Contador < ListaDeTeclas.length) {
     //contador mudando de variavel (ele + 1)
     Contador = Contador + 1;
-ListaDeTeclas[Contador].onclick = tocar('#som-tecla-clap');
+//ListaDeTeclas[Contador].onclick = tocar('#som-tecla-clap');
+ListaDeTeclas[Contador].onclick = function tocaraudio () {
+    tocar('#som-tecla-clap')
+
+}
     //console fala com nos
 console.log(Contador);
 }
