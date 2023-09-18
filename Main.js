@@ -8,10 +8,10 @@ document.querySelector(idElementoAudio).play();
 const ListaDeTeclas = document.querySelectorAll('.tecla');
 let Contador = 0;
     //variavel "enquanto"
-while (Contador < 9) {
+while (Contador < ListaDeTeclas.length) {
     //contador mudando de variavel (ele + 1)
     Contador = Contador + 1
-ListaDeTeclas[Contador].onclick = tocamSomClap;
+ListaDeTeclas[Contador].onclick = tocar('#som-tecla-clap');
     //console fala com nos
 console.log(Contador);
 }
