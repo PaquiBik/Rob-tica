@@ -13,7 +13,7 @@ while (Contador < ListaDeTeclas.length) {
     //contador mudando de variavel (ele + 1)
     //ListaDeTeclas[Contador].onclick = tocar('#som-tecla-clap');
     ListaDeTeclas[Contador].onclick = function () {
-        tocamSomClap(jacareVermelho);
+        tocamSomClap('#som-tecla-clap');
     }
     const jacareVermelho = ListaDeTeclas[Contador].classList[1];
 console.log(jacareVermelho);
