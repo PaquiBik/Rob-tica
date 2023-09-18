@@ -1,7 +1,7 @@
     //uma função
-function tocamSomClap () {
+function tocamSomClap (idElementoAudio) {
     // som que toca isolado
-document.querySelector('#som-tecla-toin').play();
+document.querySelector(idElementoAudio).play();
 }
 
     //contante de uma lista
