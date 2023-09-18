@@ -1,7 +1,7 @@
     //uma função
-function tocamSomClap (idElementoAudio) {
+function tocamSomClap (idElementoDoAudioNaoFuncional) {
     // som que toca isolado
-document.querySelector(idElementoAudio).tocar();
+document.querySelector(idElementoDoAudioNaoFuncional).play();
 }
 
     //contante de uma lista
