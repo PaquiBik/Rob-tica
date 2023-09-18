@@ -15,8 +15,8 @@ while (Contador < ListaDeTeclas.length) {
     ListaDeTeclas[Contador].onclick = function () {
         tocamSomClap('#som-tecla-clap');
     }
-    const jacareVermelho = ListaDeTeclas[Contador].classList[1]
-console(jacareVermelho)
+    const jacareVermelho = ListaDeTeclas[Contador].classList[1];
+console(jacareVermelho);
     Contador = Contador + 1;
 
     //console fala com nos
