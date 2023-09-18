@@ -1,5 +1,5 @@
 //uma função
-function tocarSom(idElementoDoAudioNaoFuncional) {
+function tocamSomClap(idElementoDoAudioNaoFuncional) {
     // som que toca isolado
     document.querySelector(idElementoDoAudioNaoFuncional).play();
 }
@@ -13,7 +13,7 @@ while (Contador < ListaDeTeclas.length) {
     //contador mudando de variavel (ele + 1)
     //ListaDeTeclas[Contador].onclick = tocar('#som-tecla-clap');
     ListaDeTeclas[Contador].onclick = function () {
-        tocarSom('#som-tecla-clap');
+        tocamSomClap('#som-tecla-clap');
     }
     const jacareVermelho = ListaDeTeclas[Contador].classList[1];
     console.log(jacareVermelho);
