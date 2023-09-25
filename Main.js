@@ -11,7 +11,7 @@ let Contador = 0;
 
 
 while (Contador < ListaDeTeclas.length) {
-
+    const tecla = ListaDeTeclas[Contador];
     const jacareVermelho = ListaDeTeclas[Contador].classList.[1];
     console.log(jacareVermelho);
     const IdSom = `#som-${jacareVermelho}`;
@@ -30,6 +30,10 @@ while (Contador < ListaDeTeclas.length) {
     
     //console fala com nos
     console.log(Contador);
+tecla.onkeydown = function() {
+
+
+tecla.classList.add('ativa');
+tecla.classList.remove('ativa');
 }
-ListaDeTeclas[Contador].classList.add('ativa')
-ListaDeTeclas[Contador].classList.remove('ativa')
+}
