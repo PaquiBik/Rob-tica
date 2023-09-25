@@ -20,7 +20,7 @@ while (Contador < ListaDeTeclas.length) {
     console.log(jacareVermelho);
     const IdSom = `#som-${jacareVermelho}`;
     Contador = Contador + 1;
-
+    console.log(IdSom);
     //console fala com nos
     console.log(Contador);
 }
