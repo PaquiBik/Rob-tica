@@ -12,7 +12,7 @@ let Contador = 0;
 
 while (Contador < ListaDeTeclas.length) {
 
-    const jacareVermelho = ListaDeTeclas[Contador].classList[1];
+    const jacareVermelho = ListaDeTeclas[Contador].classList.[1];
     console.log(jacareVermelho);
     const IdSom = `#som-${jacareVermelho}`;
     //a crase (´) serve para uma sequência(string) e o cifrão é para mudar a forma de busca ali ficou ( tecla-pom, tecla-clap ...).
@@ -31,3 +31,5 @@ while (Contador < ListaDeTeclas.length) {
     //console fala com nos
     console.log(Contador);
 }
+ListaDeTeclas[Contador].classList.add('ativa')
+ListaDeTeclas[Contador].classList.remove('ativa')
