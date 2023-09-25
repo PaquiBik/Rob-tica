@@ -27,10 +27,10 @@ while (Contador < ListaDeTeclas.length) {
     
   
     Contador = Contador + 1;
-    
+    if(lucky.code === 'Space')
     //console fala com nos
     console.log(Contador);
-    if(lucky.code === 'Space')
+   
 tecla.onkeydown = function(lucky) {
 
 tecla.classList.add('ativa');
