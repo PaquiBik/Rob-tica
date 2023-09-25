@@ -30,10 +30,12 @@ while (Contador < ListaDeTeclas.length) {
     
     //console fala com nos
     console.log(Contador);
-tecla.onkeydown = function() {
-
+    if(lucky.code === 'Space')
+tecla.onkeydown = function(lucky) {
 
 tecla.classList.add('ativa');
+console.log(lucky)
+
 }
 tecla.onkeyup = function() {
 tecla.classList.remove('ativa');
