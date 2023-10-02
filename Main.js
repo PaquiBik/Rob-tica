@@ -10,7 +10,7 @@ let Contador = 0;
 //variavel "enquanto"
 
 
-while (Contador < ListaDeTeclas.length) {
+for (Contador < ListaDeTeclas.length) {
     const tecla = ListaDeTeclas[Contador];
     const jacareVermelho = ListaDeTeclas[Contador].classList[1];
     console.log(jacareVermelho);
