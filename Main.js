@@ -24,20 +24,20 @@ while (Contador < ListaDeTeclas.length) {
     ListaDeTeclas[Contador].onclick = function () {
         tocamSomClap(IdSom);
     }
-    
-  
+
+
     Contador = Contador + 1;
-    if(lucky.code === 'Space')
+
     //console fala com nos
     console.log(Contador);
-   
-tecla.onkeydown = function(lucky) {
 
-tecla.classList.add('ativa');
-console.log(lucky)
-
-}
-tecla.onkeyup = function() {
-tecla.classList.remove('ativa');
-}
+    tecla.onkeydown = function (lucky) {
+        if (lucky.code === 'Space') {
+            tecla.classList.add('ativa');
+            console.log(lucky)
+        }
+    }
+    tecla.onkeyup = function () {
+        tecla.classList.remove('ativa');
+    }
 }
