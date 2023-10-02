@@ -32,7 +32,7 @@ while (Contador < ListaDeTeclas.length) {
     console.log(Contador);
 
     tecla.onkeydown = function (lucky) {
-        if (lucky.code === 'Space') {
+        if (lucky.code === 'Space' || lucky.code === 'Enter') {
             tecla.classList.add('ativa');
             console.log(lucky)
         }
