@@ -10,7 +10,7 @@ let Contador = 0;
 //variavel "enquanto"
 
 
-for (; Contador < ListaDeTeclas.length;) {
+for ( let Contador = 0; Contador < ListaDeTeclas.length; contador++) {
     const tecla = ListaDeTeclas[Contador];
     const jacareVermelho = ListaDeTeclas[Contador].classList[1];
     console.log(jacareVermelho);
