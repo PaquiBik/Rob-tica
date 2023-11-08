@@ -11,9 +11,9 @@ const ListaDeTeclas = document.querySelectorAll('.tecla');
 
 for ( let Contador = 0; Contador < ListaDeTeclas.length; Contador++) {
     const tecla = ListaDeTeclas[Contador];
-    const jacareVermelho = ListaDeTeclas[Contador].classList[1];}
+    const jacareVermelho = ListaDeTeclas[Contador].classList[1];
     console.log(jacareVermelho);
-    const IdSom = `#som-${jacareVermelho}`;
+    const IdSom = `#som-${jacareVermelho}`;}
     //a crase (´) serve para uma sequência(string) e o cifrão é para mudar a forma de busca ali ficou ( tecla-pom, tecla-clap ...).
     console.log(IdSom);
 
