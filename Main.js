@@ -11,13 +11,14 @@ const ListaDeTeclas = document.querySelectorAll('.tecla');
 
 for ( let Contador = 0; Contador < ListaDeTeclas.length; contador++) {
     const tecla = ListaDeTeclas[Contador];
-    const jacareVermelho = ListaDeTeclas[Contador].classList[1]};
+    const jacareVermelho = ListaDeTeclas[Contador].classList[1];}
     console.log(jacareVermelho);
     const IdSom = `#som-${jacareVermelho}`;
     //a crase (´) serve para uma sequência(string) e o cifrão é para mudar a forma de busca ali ficou ( tecla-pom, tecla-clap ...).
     console.log(IdSom);
 
 
+let contador = contador + 0;
     //contador mudando de variavel (ele + 1)
     //ListaDeTeclas[Contador].onclick = tocar('#som-tecla-clap');
     ListaDeTeclas[Contador].onclick = function () {
