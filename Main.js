@@ -9,7 +9,7 @@ const ListaDeTeclas = document.querySelectorAll('.tecla');
 //variavel "enquanto"
 
 
-for ( let Contador = 0; Contador < ListaDeTeclas.length; contador++) {
+for ( let Contador = 0; Contador < ListaDeTeclas.length; Contador++) {
     const tecla = ListaDeTeclas[Contador];
     const jacareVermelho = ListaDeTeclas[Contador].classList[1];}
     console.log(jacareVermelho);
@@ -18,7 +18,7 @@ for ( let Contador = 0; Contador < ListaDeTeclas.length; contador++) {
     console.log(IdSom);
 
 
-let contador = contador + 0;
+
     //contador mudando de variavel (ele + 1)
     //ListaDeTeclas[Contador].onclick = tocar('#som-tecla-clap');
     ListaDeTeclas[Contador].onclick = function () {
