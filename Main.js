@@ -39,3 +39,23 @@ for ( let Contador = 0; Contador < ListaDeTeclas.length; Contador++) {
         tecla.classList.remove('ativa');
     }
 }
+
+
+
+
+//////
+
+const calculadora = document.querySelector('.calculadora')
+const chaves = calculadora.querySelector('.calculadora_chave')
+
+chaves.addEventListener('click', e => {
+ if (e.target.matches('button')) {
+   // Fazer algo
+ }
+})
+const chave = e.target
+const acao = key.dataset.action
+
+if (!acao) {
+    console.log('number key!')
+  }
