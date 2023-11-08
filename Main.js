@@ -6,13 +6,12 @@ function tocamSomClap(idElementoDoAudioNaoFuncional) {
 
 //contante de uma lista
 const ListaDeTeclas = document.querySelectorAll('.tecla');
-let Contador = 0;
 //variavel "enquanto"
 
 
-for ( let Contador = 0; Contador < ListaDeTeclas.length; contador++) {}
+for ( let Contador = 0; Contador < ListaDeTeclas.length; contador++) {
     const tecla = ListaDeTeclas[Contador];
-    const jacareVermelho = ListaDeTeclas[Contador].classList[1];
+    const jacareVermelho = ListaDeTeclas[Contador].classList[1];}
     console.log(jacareVermelho);
     const IdSom = `#som-${jacareVermelho}`;
     //a crase (´) serve para uma sequência(string) e o cifrão é para mudar a forma de busca ali ficou ( tecla-pom, tecla-clap ...).
@@ -26,8 +25,6 @@ for ( let Contador = 0; Contador < ListaDeTeclas.length; contador++) {}
     }
 
 
-    Contador = Contador + 1;
-
     //console fala com nos
     console.log(Contador);
 
@@ -40,4 +37,4 @@ for ( let Contador = 0; Contador < ListaDeTeclas.length; contador++) {}
     tecla.onkeyup = function () {
         tecla.classList.remove('ativa');
     }
-}
+
