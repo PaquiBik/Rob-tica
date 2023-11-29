@@ -58,3 +58,21 @@
    font-family:sans-serif;
  }
  
+ button{
+   position: relative;
+   left: 784px;
+   border: 2px solid #b82222;
+   background-color: rgb(236, 58, 111);
+   text-decoration: none;
+   margin: 6px;
+   padding: 6px;
+   border-radius: 7px;
+   color: black;
+   transition: border-radius 1s, background-color 1s;
+
+
+}   
+button:hover{
+   border-radius: 15px;
+   background-color: #fa75a8;
+}
